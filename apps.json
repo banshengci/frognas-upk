@@ -19,7 +19,14 @@
       "updated_at": "2026-09-24",
       "service_port": 8980,
       "app_type": "native",
-      "post_install_note": "安装后打开 http://<NAS_IP>:8980 游玩；管理/推送页 /admin；外网走 UGREENlink 域名 + /frog/"
+      "post_install_note": "安装后打开 http://<NAS_IP>:8980 游玩；管理/推送页 /admin；外网走 UGREENlink 域名 + /frog/",
+      "install_params": [
+        {
+          "key": "DATA_PATH",
+          "name": "数据目录",
+          "description": "安装时让用户选择共享文件夹；留空也能安装。"
+        }
+      ]
     }
   ]
 }
